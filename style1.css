@@ -1,0 +1,44 @@
+body { 
+    text-align: center;
+    overflow: hidden;
+    zoom: normal;
+}
+.btn-cont{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 20%;
+    border: 0.2rem solid black;
+}
+.red{
+    background-color: rgb(245, 56, 56);
+}
+.red:active{
+    background-color: rgb(252, 20, 20);
+}
+.blue{
+    background-color: royalblue;
+}
+.blue:active{
+    background-color: rgb(14, 62, 209);
+}
+.green{
+    background-color: rgb(68, 255, 68);
+}
+.green:active{
+    background-color: rgb(29, 229, 29);
+}
+.purple{
+    background-color: blueviolet;
+}
+.purple:active{
+    background-color: rgb(115, 2, 221);
+}
+
+.flash{
+    background-color: white;
+}
